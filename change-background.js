@@ -7,7 +7,7 @@ const page=document.body;
 
 const changeBackgrond = function(){
     const colors= ['yellow','red','green','blue','black','orange','pink'];
-    const randomColor= colors[Math.floor(Math.random()*7)];   
+    const randomColor= colors[Math.floor(Math.random()*colors.length)];   
     page.style.backgroundColor= randomColor;
 }
 
